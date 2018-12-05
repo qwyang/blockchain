@@ -8,6 +8,9 @@
 ## install virtualbox enhancement package for vm
     实现host和vm之间复制粘贴功能
     虚拟机启动后，设备->拖放->双向
+## vim编辑器设置
+    set ts=4
+    set expandtab    
 ## 输入法设置
     设置->区域和语言->设置输入源语言添加汉语
     设置->键盘->设置快捷键CTRL+SPACE切换语言
@@ -34,7 +37,7 @@
 	cd remix-ide
 	npm install
 	npm start
-### ***按照上述方式案子remix-ide失败的解决办法***  
+### ***按照上述方式安装remix-ide失败的解决办法***  
     sudo apt-get install docker.io
     sudo docker pull 4c0n/remix-ide 
     docker run -itd -p8080:8080 -p65520:65520 -v /home/qwyang/solidity_files/:/app 4c0n/remix-ide
