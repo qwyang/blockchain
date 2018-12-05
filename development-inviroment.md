@@ -34,7 +34,7 @@
 	cd remix-ide
 	npm install
 	npm start
-***按照上述方式案子remix-ide失败的解决办法***  
+### ***按照上述方式案子remix-ide失败的解决办法***  
     sudo apt-get install docker.io
     sudo docker pull 4c0n/remix-ide 
     docker run -itd -p8080:8080 -p65520:65520 -v /home/qwyang/solidity_files/:/app 4c0n/remix-ide
