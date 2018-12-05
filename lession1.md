@@ -13,7 +13,7 @@ eth.sendTransaction({from: eth.coinbase, to: eth.accounts[1], value: web3.toWei(
 eth.sendTransaction({from: eth.coinbase, to: eth.accounts[2], value: web3.toWei(1, "ether")})  
 eth.sendTransaction({from: eth.coinbase, to: eth.accounts[3], value: web3.toWei(1, "ether")})  
 ## 4.solidity  
-(```)
+```
 pragma solidity ^0.4.18;  
 contract hello {  
     string v;  
@@ -26,7 +26,7 @@ contract hello {
         return v;  
     }  
 }  
-(```)
+```
 ## 5.compile in remix-ide  
   ...  
 ## 6.run the contract  
