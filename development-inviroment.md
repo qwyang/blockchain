@@ -29,7 +29,7 @@
 	sudo npm install n -g
     sudo npm list -g --depth=0
     dpkg -S /bin/ping
-## 虚拟机安装remix-ide编译器
+## 虚拟机安装remix-ide编译器(遇到权限问题，npm的bug，需要选择版本）
 	git clone https://github.com/ethereum/remix-ide.git
 	cd remix-ide
 	npm install
@@ -38,7 +38,7 @@
     sudo apt-get install docker.io
     sudo docker pull 4c0n/remix-ide 
     docker run -itd -p8080:8080 -p65520:65520 -v /home/qwyang/solidity_files/:/app 4c0n/remix-ide
-## 安装chrome浏览器
+## 安装chrome浏览器(firefox打不开remix-ide)
     download corresponding deb
     sudo dpkg -i google-chrome-stable_current_amd64.deb
     sudo apt-get -f -y install 
