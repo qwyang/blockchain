@@ -2,4 +2,4 @@
 ## 自UTC 时间 1970-01-01 00:00:00 以来所经过的秒数
 `date +%s`
 ## 计算hash值
-sha256sum README.md
+`sha256sum README.md`
