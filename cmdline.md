@@ -3,3 +3,9 @@
 `date +%s`
 ## 计算hash值
 `sha256sum README.md`
+##字符相关
+```
+get length:${#str}
+```
+## 挂载vboxsf共享文件夹
+sudo mount -t vboxsf m /home/qwyang/m
