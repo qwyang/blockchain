@@ -1,6 +1,8 @@
 # 2018/12/05:install ethereum development invironment.
 ## install virtualbox on windows
     360安装管理器
+## install gola
+## install jetbrains goland
 ## dowload ubuntu16.04 ISO
     ubuntu-gnome-16.04-desktop-amd64.iso
 ## install ubuntu virtual machine
