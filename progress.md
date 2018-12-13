@@ -25,6 +25,8 @@ Go语言实现区块链DEMO V3.0（CLI界面/bolt数据库） V4.0(支持transac
 Go语言条件变量：sync.Cond:wait()/signal()/broadcast()
 
 ## 2018.12.13
+搭建私链
 mist客户端部署合约
 geth console部署合约
 Solidity语言学习，重点：存储。
+官网:Solidity ABI Specification.
