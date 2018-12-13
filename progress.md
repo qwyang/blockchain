@@ -23,3 +23,8 @@ CoinBase交易中输入交易脚本可以任意值作为extraNonce
 ## 2018.12.11
 Go语言实现区块链DEMO V3.0（CLI界面/bolt数据库） V4.0(支持transaction)
 Go语言条件变量：sync.Cond:wait()/signal()/broadcast()
+
+## 2018.12.13
+mist客户端部署合约
+geth console部署合约
+Solidity语言学习，重点：存储。
