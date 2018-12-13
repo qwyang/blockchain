@@ -14,8 +14,12 @@ openssl命令行使用
 增加作恶成本，奖励贡献。  
 
 ## 2018.12.7
-Go语言实现区块链DEMO V1.0  
+Go语言实现区块链DEMO V1.0 V2.0  
 难点：难度值如何自动调整  
 各个节点独立计算，每隔2016个区块调整一次HASH难度，difficuty=difficuty*过去2016块计算花费时间/2016*10*60  
 难点：nonce值溢出  
 CoinBase交易中输入交易脚本可以任意值作为extraNonce  
+
+## 2018.12.11
+Go语言实现区块链DEMO V3.0（CLI界面/bolt数据库） V4.0(支持transaction)
+Go语言条件变量：sync.Cond:wait()/signal()/broadcast()
