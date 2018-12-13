@@ -8,6 +8,8 @@
 - openssl
 - sublime
 - chrome
+- vim
+- shell
 
 ## tools for network engineer:
 - wireshark
