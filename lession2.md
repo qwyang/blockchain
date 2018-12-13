@@ -36,16 +36,16 @@ qwyang@ubuntu:~/m/eth_cluster$ tree -L 2
 ```
 ## linux虚拟机节点：
 ```
-geth --datadir ./node1 account new
-geth --datadir ./node1 init ./genesis.json
-geth --datadir ./node1 --networkid 1414 console
+geth --datadir ~/node1 account new
+geth --datadir ~/node1 init ./genesis.json
+geth --datadir ~/node1 --networkid 1414 console
 admin.addPeer("enode://0e7060d15d108d9577bf20d1e7f65f6c20f5f31fcc918f082b3c1b8defc1595547eac49714cfbcf68a2b8ef91f5df7834bd41e2318358e81dc7e83ee3394caac@192.168.1.3:30303")
 ```
 ## windows host机节点：
 ```
-geth --datadir ./node2 account new
-geth --datadir ./node2 init ./genesis.json
-geth --datadir ./node2 --networkid 1414 console
+geth --datadir D:\\m\\eth_cluster\\node2 account new
+geth --datadir D:\\m\\eth_cluster\\node2 init ./genesis.json
+geth --datadir D:\\m\\eth_cluster\\node2 --networkid 1414 console
 > admin.nodeInfo.enode
 `"enode://0e7060d15d108d9577bf20d1e7f65f6c20f5f31fcc918f082b3c1b8defc1595547eac49714cfbcf68a2b8ef91f5df7834bd41e2318358e81dc7e83ee3394caac@100.64.129.67:30303"`
 ```
